@@ -38,16 +38,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [2] = LAYOUT_universal(
-    _______  , KC_F11   , KC_F12   , KC_F13  , KC_F14   , KC_F15   ,                                         KC_HOME  , KC_PGDN  , KC_PGUP  , KC_END  , KC_LBRC  , KC_RBRC  ,
-    KC_LCTL  , KC_F6    , KC_F7    , KC_F8   , KC_F9    , KC_F10   ,                                         KC_LEFT  , KC_DOWN  , KC_UP  , KC_RGHT  , KC_MINS  , KC_EQL  ,
-    KC_LSFT  , KC_F1    , KC_F2    , KC_F3   , KC_F4    , KC_F5    ,                                         KC_BTN4  , KC_BTN1  , KC_BTN2  , KC_BTN5  , _______  , KC_GRV   ,
+    _______  , KC_F11   , KC_F12   , KC_F13  , KC_F14   , KC_F15   ,                                         KC_HOME  , KC_PGDN  , KC_PGUP  , KC_END   , KC_LBRC  , KC_RBRC  ,
+    KC_LCTL  , KC_F6    , KC_F7    , KC_F8   , KC_F9    , KC_F10   ,                                         KC_LEFT  , KC_DOWN  , KC_UP    , KC_RGHT  , KC_MINS  , KC_EQ    ,
+    KC_LSFT  , KC_F1    , KC_F2    , KC_F3   , KC_F4    , KC_F5    ,                                         KC_BTN4  , KC_BTN1  , KC_BTN2  , KC_BTN5  , _______ , KC_GRV    ,
                   KC_LALT  , _______ , KC_LGUI  ,         MO(3)    , _______  ,                   _______  , _______    , _______       , _______  , _______
   ),
 
   [3] = LAYOUT_universal(
     _______  , _______  , _______  , _______  , _______  , _______  ,                                        _______  , _______  , CPI_D100 , CPI_D1K , _______ , _______  ,
-    _______  , _______  , _______  , _______  , _______  , SCRL_DVI ,                                        _______  , SCRL_MO  , CPI_I100 , CPI_I1K , _______  , _______  ,
-    _______  , _______  , _______  , _______  , _______  , SCRL_DVD ,                                        KC_BTN4  , KC_BTN1  , KC_BTN2  , KC_BTN5 , _______  , KBC_SAVE ,
+    _______  , _______  , _______  , _______  , _______  , SCRL_DVI ,                                        _______  , SCRL_MO  , CPI_I100 , CPI_I1K , _______ , _______  ,
+    _______  , _______  , _______  , _______  , _______  , SCRL_DVD ,                                        KC_BTN4  , KC_BTN1  , KC_BTN2  , KC_BTN5 , _______ , KBC_SAVE ,
                   QK_BOOT  , KBC_RST  , _______  ,        _______  , _______  ,                   _______  , _______  , _______       , _______  , QK_BOOT
   ),
 };
